@@ -1,7 +1,7 @@
 import urllib2
 import time
 
-proxy = urllib2.ProxyHandler({'https': 'https://suraj.jha:jZpn5pcy@202.141.80.22:3128'})
+proxy = urllib2.ProxyHandler({'https': ''})
 opener = urllib2.build_opener(proxy)
 urllib2.install_opener(opener)
 
